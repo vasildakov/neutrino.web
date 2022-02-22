@@ -1,5 +1,4 @@
 deployment:
-    tasks:
-      - export DEPLOYPATH=/home/neutwjux/public_html
-      - /bin/cp index.html $DEPLOYPATH
-
+  tasks:
+    - export DEPLOYPATH=/home/neutwjux/public_html
+    - /bin/cp index.html $DEPLOYPATH
