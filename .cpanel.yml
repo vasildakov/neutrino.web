@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/neutwjux/dev.neutrino.bg
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
