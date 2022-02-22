@@ -1,0 +1,21 @@
+{
+    "name": "vasildakov/neutrino.web",
+    "type": "project",
+    "require": {
+        "psr/log": "3.x-dev",
+        "psr/container": "2.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vasildakov\\NeutrinoWeb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vasil",
+            "email": "vasildakov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
